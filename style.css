@@ -91,7 +91,7 @@ background: rgb(255, 248, 243);
     background: rgb(255, 248, 243);
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 
 }
 /* main styles */
@@ -112,5 +112,22 @@ main{
     
 
 }
+.text-center{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24;
 
+}
+.skills{
+    padding: 50px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+   
+}
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
